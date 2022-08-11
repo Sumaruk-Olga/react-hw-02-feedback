@@ -8,6 +8,7 @@ export const Container = styled.div`
     text-align: center;
     font-size: ${p => p.theme.fontSizes.m};
     color: ${p => p.theme.text.primary};
+    border-radius: ${p=>p.theme.radii.normal};
     background-color: ${p => p.theme.colors.page};
     box-shadow: ${p => p.theme.shadow}; 
     margin-left: auto;
