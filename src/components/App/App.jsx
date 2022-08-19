@@ -29,7 +29,7 @@ export class App extends Component {
 
   
   positivePercentage = () => {
-    return Number(((this.state.good / this.totalFeedback()) * 100).toFixed(2));
+    return Number(((this.state.good / this.totalFeedback()) * 100).toFixed(0));
   }
   
   render() {
